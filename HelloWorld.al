@@ -18,7 +18,7 @@ codeunit 50101 MySubscriber
     begin
         //Message('tékk');
         if (StrPos(Rec.Address , '+') > 0) then begin
-            Message('Cannot use a plus sign (+) in the address arna sif');
+            Message('Cannot use a plus sign (+) in the addresss petur elvar');
         end;
     end;
 }
